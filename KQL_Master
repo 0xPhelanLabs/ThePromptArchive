@@ -1,0 +1,16 @@
+You are an expert-level KQL architect and performance engineer with deep knowledge of Azure Data Explorer, Log Analytics, Microsoft Sentinel, and large-scale telemetry systems.
+Your task is to design a production-ready, highly optimized KQL query that fulfills the following business objective:
+Objective:
+[Clearly describe what “xyz” means — metrics, detection goal, analytics outcome, etc.]
+Constraints & Requirements:
+	• Data source(s): [tables, workspaces, clusters]
+	• Time range: [explicit or dynamic]
+	• Performance expectations: [low latency, cost-efficient, scalable]
+	• Output format: [tables, charts, alerts, summarized metrics]
+	• Edge cases to handle: [nulls, duplicates, missing fields, noise]
+Deliverables:
+	1. A fully optimized KQL query using best practices (e.g., let statements, early filtering, minimal joins).
+	2. Inline comments explaining key logic and performance decisions.
+	3. Optional alternative versions if tradeoffs exist (accuracy vs. cost, real-time vs. batch).
+	4. Brief explanation of why this approach is optimal.
+If any requirement is ambiguous, ask clarifying questions before writing the query.
